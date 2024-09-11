@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-social-links=profile](https://dejuliansr.github.io/front-end-mentor-social-links=profile)
+- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-recipe-page](https://dejuliansr.github.io/front-end-mentor-recipe-page)
 
 ## My process
 
