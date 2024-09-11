@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: YoungSerif;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  padding: 1.5rem;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: "Young Serif", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Young Serif", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.prep-time h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+.prep-time li, .ingredients li, .instructions li {
+    padding:0 0 0.6rem 1rem;
+}
+
+.ingredients li::marker ,
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients, .instructions, .nutrition {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.instructions strong {
+  color: hsl(24, 5%, 18%);
+}
+
+.nutrition p {
+  padding-top: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition th, .nutrition td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.nutrition th {
+  padding: 0 0 0 2rem;
+  background-color: #f9f9f9;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition td {
+  background-color: #fff;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
